@@ -27,5 +27,5 @@ For the crawler, 1 MySQL schema and 2 tables will be needed.
 ### Usage
 * LinkedIn_Crawler_get_urls.ipynb:
   Search for profile urls from LinkedIn with a given keyword.
-* LinkedIn_Crawler_get_profile_data.ipynb:
+* LinkedIn_Crawler_get_data.ipynb:
   Receive ids and urls from MySQL and crawl profile information.
