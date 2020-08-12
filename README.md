@@ -9,10 +9,10 @@ The following file is needed. Please download and put it in the same folder as t
 ### MySQL Setting
 For the crawler, 1 MySQL schema and 2 tables will be needed.
 * Schema Nmae: linkedin
-* Table 1: lk_urls
-    columns=['id'(auto-increment),'urls','keywords']
-* Table 2: lk_data
-    columns=['id','Name','Location','About',\
+* Table 1: lk_urls:
+columns=['id'(auto-increment),'urls','keywords']
+* Table 2: lk_data:
+columns=['id','Name','Location','About',\
              'Position_1','Company_1','Dates_Employed_1', 'Time_Employed_1', 'Location_Employed_1', 'Job_Description_1',\
              'Position_2','Company_2','Dates_Employed_2', 'Time_Employed_2', 'Location_Employed_2', 'Job_Description_2',\
              'Position_3','Company_3','Dates_Employed_3', 'Time_Employed_3', 'Location_Employed_3', 'Job_Description_3',\
